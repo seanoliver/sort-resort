@@ -9,7 +9,6 @@ export default async function bubbleSort(
 	updateActiveBars: (activeBars: number[]) => void,
 	updateBars: (bars: number[]) => void
 ) {
-	console.log('arr', arr);
 	const newArr = [...arr];
 	for (let i = newArr.length - 1; i > 0; i--) {
 		for (let j = 0; j < i; j++) {
